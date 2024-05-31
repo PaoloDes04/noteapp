@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">appnotes</string>
+    <string name="data_saved">Testo Salvato</string>
+    <string name="error_saving_data">Si è verificato un errore</string>
+    <string name="no_data">Nessun dato trovato</string>
+    <string name="please_enter_text">Inserisci testo</string>
+    <string name="permission_already_granted">Permessi forniti</string>
+    <string name="permission_denied">Permessi rifiutati, per favore accetta i permessi</string>
+    <string name="saveastxt">Salva testo</string>
+    <string name="your_text">il tuo testo</string>
+    <string name="save">Salva</string>
+    <string name="saved_text">TestoSalvato</string>
+    <string name="parla">parla</string>
+    <string name="ascolta">ascolta</string>
+    <string name="paint_app">app per disegnare\n</string>
+    <string name="clear">pulisci\n</string>
+    <string name="change_color">cambia colore\n</string>
+</resources>
