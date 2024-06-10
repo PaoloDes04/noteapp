@@ -62,7 +62,7 @@ class CanvasView(context: Context, attrs: AttributeSet) : View(context, attrs) {
         paths.add(Pair(Path(path), paint))
         path.reset()
     }
-
+//imposta colore casuale
     private fun setRandomColor(): Int {
         return Color.rgb(
             (0..255).random(), (0..255).random(), (0..255).random()
@@ -73,7 +73,7 @@ class CanvasView(context: Context, attrs: AttributeSet) : View(context, attrs) {
     {
         currentColor = setRandomColor()
     }
-
+//pulisce lavagna
     fun clearCanvas()
     {
         paths.clear()
