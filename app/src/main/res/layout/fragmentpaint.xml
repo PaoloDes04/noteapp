@@ -8,13 +8,13 @@
     tools:context=".FragmentPaint">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="137dp"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
         android:text="@string/paint_app"
         android:textColor="@color/black"
-        android:textStyle="bold"
         android:textSize="28sp"
-        android:fontFamily="sans-serif-black"/>
+        android:textStyle="bold" />
 
     <com.example.appnotes.CanvasView
         android:layout_width="match_parent"
@@ -28,36 +28,19 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-        <Button
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_margin="5dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Clicca il tasto indietro per tornare alla pagina precedente e cancellare il contenuto della lavagna"
             android:textStyle="bold"
-            android:id="@+id/clearButton"
-            android:textSize="15sp"
-            android:backgroundTint="#0288D1"
-            android:drawableLeft="@drawable/ic_eraser"
-            android:paddingHorizontal="50dp"
-            android:text="@string/clear"/>
-
-
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:id="@+id/colorButton"
-            android:drawableLeft="@drawable/ic_brush"
-            android:paddingHorizontal="30dp"
-            android:drawablePadding="15dp"
-            android:textStyle="bold"
-            android:layout_margin="5dp"
-            android:textSize="15sp"
-            android:backgroundTint="#FF8F00"
-            android:text="@string/change_color"/>
-
+            />
     </LinearLayout>
 
 </LinearLayout>

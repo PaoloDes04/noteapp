@@ -18,14 +18,6 @@ class FragmentPaint : AppCompatActivity() {
 
         canvasView = binding.canvasView
 
-        binding.apply {
-            colorButton.setOnClickListener {
-                canvasView.setColor()
-            }
-            clearButton.setOnClickListener {
-                canvasView.clearCanvas()
-            }
-        }
 
-            }
+           }
         }

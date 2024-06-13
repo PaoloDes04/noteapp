@@ -12,7 +12,7 @@
     <string name="saved_text">TestoSalvato</string>
     <string name="parla">parla</string>
     <string name="ascolta">ascolta</string>
-    <string name="paint_app">app per disegnare\n</string>
-    <string name="clear">pulisci\n</string>
-    <string name="change_color">cambia colore\n</string>
+    <string name="paint_app">Lavagna\n</string>
+
+
 </resources>
