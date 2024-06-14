@@ -1,5 +1,3 @@
-
-
 package com.example.appnotes
 
 import android.Manifest
@@ -39,7 +37,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             startActivity(intent)
         }
 
-        // Initialize file handler
+        // Initializa il gestore file
         fileHandler = FileHandler(this@MainActivity)
 
         // controllo permessi

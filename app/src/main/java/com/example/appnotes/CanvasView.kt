@@ -42,11 +42,11 @@ class CanvasView(context: Context, attrs: AttributeSet) : View(context, attrs) {
         }
     }
 
-    private fun startDrawing(x: Float, y: Float) {
-        path.reset()
-        path.moveTo(x, y)
-        lastX = x
-        lastY = y
+        private fun startDrawing(x: Float, y: Float) {
+            path.reset()
+            path.moveTo(x, y)
+            lastX = x
+            lastY = y
     }
 
     private fun continueDrawing(x: Float, y: Float) {
@@ -66,12 +66,12 @@ class CanvasView(context: Context, attrs: AttributeSet) : View(context, attrs) {
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
 
-        // Draw all saved paths
+        //
         for ((path, paint) in paths) {
             canvas.drawPath(path, paint)
         }
 
-        // Draw the current path
+        // funzione per disagnare
         canvas.drawPath(path, paintConfig)
     }
 }

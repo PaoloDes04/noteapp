@@ -121,7 +121,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:layout_editor_absoluteX="30dp"
-                tools:layout_editor_absoluteY="16dp"></FrameLayout>
+                tools:layout_editor_absoluteY="0dp">
+
+            </FrameLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
